@@ -1,11 +1,8 @@
-console.log("Trabalhando com variáveis");  
+console.log("Trabalhando com variáveis");
 //case sensitive
-const idade =22;
+const idade = 22;
 
 console.log(idade);
 
-const nome= "Miguel";
+const nome = "Miguel";
 console.log(nome);
-
-//let ano = 2022;
-

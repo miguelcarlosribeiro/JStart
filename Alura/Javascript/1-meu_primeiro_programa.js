@@ -1,6 +1,5 @@
 console.log("Meu primeiro programa em JS");
 
-
 const idade = 21;
 const idade_somada = idade + 2;
 
