@@ -1,25 +1,18 @@
 import { Cliente } from "./Cliente.js";
+import { Conta } from "./Conta.js";
 import { Conta_corrente } from "./Conta_corrente.js";
+import { Conta_poupanca } from "./Conta_poupanca.js";
 
 const cliente1 = new Cliente("Miguel", 11122233399);
 
-const cliente2 = new Cliente("arthur", 22233344455);
-
-const conta_corrente_miguel = new Conta_corrente(1001, cliente1);
-
+const conta_corrente_miguel = new Conta_corrente(cliente1, 1001);
 conta_corrente_miguel.depositar(500);
+conta_corrente_miguel.sacar(100);
 
-const conta2 = new Conta_corrente(102, cliente2);
+const conta_poupanca = new Conta_poupanca(50, cliente1, 1001);
 
-let valor = 200;
-
-conta_corrente_miguel.transferir(valor, conta2);
-
-console.log("Valor: ", valor);
-console.log(cliente1);
-
+console.log(conta_poupanca);
 console.log(conta_corrente_miguel);
-console.log(Conta_corrente.numero_de_contas);
 
 // Undefined e null
 //Undefined é diferente de null
