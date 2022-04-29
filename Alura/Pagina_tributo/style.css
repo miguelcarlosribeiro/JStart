@@ -1,0 +1,20 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caixa{
+    background: #ccc;
+    height: 100px;
+}
+
+.titulo_principal{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}   
+.subtitulo{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
